@@ -1,0 +1,114 @@
+.home {
+  display: flex;
+  color: #6c4812;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-bottom:10px;
+  min-height: 80vh;
+  background-color: #f9d44f;
+  margin: auto;
+  margin: 10px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  border: 1px solid rgba(128, 128, 128, 0.409);
+}
+
+.images {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  /* margin-bottom: 100px; */
+}
+.images .card,
+.images .card1 {
+  display: flex;
+
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: #f49f9f;
+  height: 50vh;
+  width: 40vh;
+  border-radius: 20px;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  color: white;
+  margin-bottom: 10px;
+}
+.images .card1 {
+  background-color: azure;
+  color: #f49f9f;
+}
+
+.home img {
+  width: 40vh;
+  height: 40vh;
+}
+/* .imgA {
+ 
+} */
+
+/* Start of Slider CSS */
+.slider-container {
+  display: flex;
+  justify-content: center;
+  /* box-sizing: content-box; */
+}
+
+.slider {
+  border-radius: 14px;
+  outline:1px solid rgb(0, 0, 0);
+  width: 720px;
+  height: 480px;
+  /* overflow hides images outside defined area */
+  overflow-x:hidden;
+}
+.slider::-webkit-scrollbar {
+  display: none;
+}
+/* animation parameter - length and timing */
+.slider__content{
+  list-style:none;
+  display:flex;
+  animation-name: slide;
+  animation-duration:15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+.slider__content img{
+  width: 720px;
+  height: 480px;
+  padding-left: 0rem;
+}
+.slider ul {
+  padding-left: 0rem;
+}
+/* pauses animation when hovering mouse over */
+.slider__content:hover{
+  animation-play-state:paused;    
+}
+
+/* animates images from left to right then starts again */
+/* translates images 720 pixels on the x axis */
+/* 720px wide, it  */
+@keyframes slide{
+  10%{
+    transform:translateX(0);
+  }
+  15%, 30%{
+    transform:translateX(-720px);
+  }
+  35%, 50%{
+    transform:translateX(-1440px);
+  }
+  55%, 70%{
+    transform:translateX(-2160px);
+  }
+  75%, 90%{
+    transform:translateX(0);
+  }
+  
+}
