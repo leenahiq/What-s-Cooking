@@ -103,7 +103,7 @@ function App() {
 
     addLogIn(username, password, setUser);
   };
-
+  // return statement
   return (
     <div>
       {/* login/signup with conditional rendering */}
