@@ -108,7 +108,7 @@ function App() {
     <div>
       {/* login/signup with conditional rendering */}
       {!user && (
-        <div className="container">
+        <div>
           {isclicked ? (
             <Login
               username={username}
