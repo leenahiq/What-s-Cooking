@@ -52,7 +52,7 @@ function App() {
   const [user, setUser] = useState();
 
   const [isclicked, setIsclicked] = useState(false);
-
+  //hooks
   const [username, setUsername] = useState();
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
