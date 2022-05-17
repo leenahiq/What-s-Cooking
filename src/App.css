@@ -76,7 +76,7 @@ recipe .button {
   margin-bottom: 30px;
 }
 
-form {
+.containerf form {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -90,19 +90,19 @@ form {
   text-align: center;
 }
 
-form h1 {
+.containerf form h1 {
   color: #f49f9f;
   margin-bottom: 80px;
   font-size: 35px;
   font-weight: 900;
 }
-form p {
+.containerf form p {
   color: blue;
   font-size: 20px;
   font-weight: 500;
   text-decoration: underline;
 }
-form p {
+.containerf form p {
   cursor: pointer;
   font-size: 22px;
 }
@@ -203,6 +203,13 @@ form input {
   padding: 10px;
   border-radius: 5px;
 }
+.search-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
 .search-form button {
   font-family: lightfont;
@@ -217,7 +224,6 @@ form input {
   border-radius: 5px;
   border: none;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
-  margin-left: 72px;
 }
 .recipes {
   display: flex;
@@ -258,6 +264,7 @@ form input {
   align-items: center;
   background-color: #f49f9f;
   border-radius: 15px;
+
   box-shadow: 6px 4px 4px 3px rgba(0, 0, 0, 0.25);
 }
 
@@ -310,7 +317,6 @@ form input {
 }
 .Getapi {
   margin: 20px;
-
   display: flex;
   justify-content: baseline;
   flex-wrap: wrap;
@@ -322,6 +328,7 @@ form input {
   height: 80vh;
 }
 .mealWrap {
+  margin-top: 25px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -341,7 +348,6 @@ form input {
   border: 1px solid rgba(128, 128, 128, 0.318);
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
   background-color: #f49f9f;
-  margin-left: 50px;
 }
 
 .Getapi button:hover {

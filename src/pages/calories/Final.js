@@ -27,7 +27,7 @@ function Calories() {
   return (
     <div className="Getapi">
       <div className="mealWrap">
-        <div>
+        <div className="search-form">
           <input
             type="number"
             placeholder="Calories (e.g. 2000)"

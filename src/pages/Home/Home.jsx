@@ -39,10 +39,18 @@ const Home = () => {
       <div className="slider-container">
         <div className="slider">
           <ul className="slider__content">
-              <li><img src={img1} alt="food-1" /></li>
-              <li><img src={img2} alt="food-2" /></li>
-              <li><img src={img3} alt="food-3" /></li>
-              <li><img src={img4} alt="food-4" /></li>
+            <li>
+              <img src={img1} alt="food-1" />
+            </li>
+            <li>
+              <img src={img2} alt="food-2" />
+            </li>
+            <li>
+              <img src={img3} alt="food-3" />
+            </li>
+            <li>
+              <img src={img4} alt="food-4" />
+            </li>
           </ul>
         </div>
       </div>
