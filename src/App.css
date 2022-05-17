@@ -18,6 +18,7 @@ body {
   background-color: white;
 }
 
+/* logIn SignUp */
 .containerf {
   display: flex;
   justify-content: center;
@@ -133,6 +134,23 @@ form input {
 .button button:hover {
   background-color: #f26060;
 }
+@media only screen and (max-width: 1100px) {
+  body {
+    background-color: #f9d44f;
+  }
+  .logside {
+    display: none;
+  }
+
+  form input {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  form {
+    border: 3px solid #f49f9f;
+    margin: 10px;
+  }
+}
 
 /* .containerf div:nth-of-type(1) {
   flex-grow: 0.2;
@@ -141,6 +159,7 @@ form input {
   flex-grow: 0.2;
 } */
 
+/* 2nd Navbar logOut and shopping basket */
 .nav2 {
   display: flex;
   flex-direction: row;
@@ -165,24 +184,7 @@ form input {
   background-color: #f26060;
 }
 
-@media only screen and (max-width: 1100px) {
-  body {
-    background-color: #f9d44f;
-  }
-  .logside {
-    display: none;
-  }
-
-  form input {
-    margin-right: 10px;
-    margin-left: 10px;
-  }
-  form {
-    border: 3px solid #f49f9f;
-    margin: 10px;
-  }
-}
-
+/* Recipe page */
 .recipe-search {
   display: flex;
   justify-content: baseline;
@@ -255,6 +257,7 @@ form input {
   color: #eb5151;
 }
 
+/* meal plan */
 .nutrients {
   font-family: lightfont;
   display: flex;
@@ -303,6 +306,7 @@ form input {
   border-radius: 8px;
 } */
 
+/*recipe, mealplan about page */
 .linkedin:hover,
 .github:hover,
 .recipe-button:hover,
@@ -375,6 +379,7 @@ p {
   font-family: lightfont;
 }
 
+/* about page */
 .about-container .header {
   margin: 20px;
 }
